@@ -1,9 +1,64 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>conversation</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button text="Conv."></ion-back-button>
+    </ion-buttons>
+    <ion-title>Luke Skywalker<br><div class="status">En ligne</div></ion-title>
+    <ion-avatar slot="end">
+      <img src="/what/what/www/assets/avatar-luke.jpeg">
+    </ion-avatar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <div class="bg"></div>
+ </ion-content>
 
-</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button fill="outline" shape="round" class="envoi"  size="small">
+        <ion-icon slot="icon-only" class="envoi" name="add">
+        
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-input placeholder="Votre message"></ion-input>
+    <ion-buttons slot="end">
+      <ion-button class="envoi">
+        Envoyer
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
+
+<ion-item lines="none">
+  <ion-badge color="warning" slot="end">Hey Luke comment ça va ?! <ion-note color="medium">21:16 <ion-icon name="done-all"></ion-icon></ion-note></ion-badge>
+</ion-item>
+
+<ion-item lines="none">
+  <ion-badge color="light" slot="start">Plutôt bien merci et toi?<ion-note color="medium">21:17</ion-note></ion-badge>
+</ion-item>
+<ion-item lines="none">
+  <ion-badge color="warning" slot="end">Ouais tranquille ça va<ion-note color="medium">21:16 <ion-icon name="done-all"></ion-icon></ion-note></ion-badge>
+</ion-item>
+
+<ion-item lines="none">
+  <ion-badge color="light" slot="start">Tu fais quoi de bon ? <ion-note color="medium">21:17</ion-note></ion-badge>
+</ion-item>
+<ion-item lines="none">
+  <ion-badge color="warning" slot="end"> Je vais à la salle de sport <ion-note color="medium">21:16 <ion-icon name="done-all"></ion-icon></ion-note></ion-badge>
+</ion-item>
+
+<ion-item lines="none">
+  <ion-badge color="light" slot="start">Cool je suis en route la<ion-note color="medium">21:17</ion-note></ion-badge>
+</ion-item>
+<ion-item lines="none">
+  <ion-badge color="warning" slot="end">Ok en se rejoins labas <ion-note color="medium">21:16 <ion-icon name="done-all"></ion-icon></ion-note></ion-badge>
+</ion-item>
+
+<ion-item lines="none">
+  <ion-badge color="light" slot="start">Ok <ion-note color="medium">21:17</ion-note></ion-badge>
+</ion-item>
+
